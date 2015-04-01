@@ -184,4 +184,7 @@
 
     <!-- Flag whether to enable Proximity setting-->
     <bool name="config_proximity_enable" translatable="false">false</bool>
+
+   <!-- Config to enable/disable Packet Count/Packet Error Count UI option -->
+   <bool name="config_ims_enable_rtp_statistics">false</bool>
 </resources>
