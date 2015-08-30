@@ -92,7 +92,7 @@ public class GsmUmtsAdditionalCallOptions extends
             mInitIndex++;
             Preference pref = mPreferences.get(mInitIndex);
             if (pref instanceof CallWaitingSwitchPreference) {
-                ((CallWaitingSwitchPreference) pref).init(this, false, mPhone);
+                ((CallWaitingSwitchPreference) pref).init(this, false, mPhoneId);
             } else if (pref instanceof MSISDNEditPreference) {
                 ((MSISDNEditPreference) pref).init(this, false, mPhoneId);
             }
