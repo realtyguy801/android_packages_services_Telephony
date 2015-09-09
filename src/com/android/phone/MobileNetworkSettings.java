@@ -602,11 +602,7 @@ public class MobileNetworkSettings extends PreferenceActivity
     }
 
     private int getUserNetworkSetting() {
-        int userNwMode = SubscriptionController.getInstance().getUserNwMode(mPhone.getSubId());
-        if (userNwMode == SubscriptionManager.DEFAULT_NW_MODE) {
-            return getPreferredNetworkSetting();
-        }
-        return userNwMode;
+        return SubscriptionController.getInstance().getUserNwMode(mPhone.getSubId());
     }
 
     private void setUserNetworkSetting(int nwMode) {
