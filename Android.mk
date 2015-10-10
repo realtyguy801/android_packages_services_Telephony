@@ -31,7 +31,7 @@ LOCAL_PACKAGE_NAME := TeleService
 
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
-
+LOCAL_AAPT_INCLUDE_ALL_RESOURCES := true
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags sip/proguard.flags
 
 include $(BUILD_PACKAGE)
