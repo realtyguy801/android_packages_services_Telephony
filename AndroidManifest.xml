@@ -39,6 +39,10 @@
     <protected-broadcast android:name="android.provider.Telephony.SIM_FULL" />
     <protected-broadcast android:name="com.android.internal.telephony.data-restart-trysetup" />
     <protected-broadcast android:name="com.android.internal.telephony.data-stall" />
+    <protected-broadcast android:name= "android.intent.action.stk.command" />
+    <protected-broadcast android:name= "android.intent.action.stk.session_end" />
+    <protected-broadcast android:name= "android.intent.action.stk.icc_status_change" />
+    <protected-broadcast android:name= "android.intent.action.stk.alpha_notify" />
 
     <permission
         android:name="com.qti.permission.SELECT_SUBSCRIPTION"
@@ -103,7 +107,7 @@
     <uses-permission android:name="android.permission.REGISTER_CALL_PROVIDER" />
     <uses-permission android:name="android.permission.REGISTER_SIM_SUBSCRIPTION" />
     <uses-permission android:name="android.permission.BIND_CARRIER_MESSAGING_SERVICE" />
-    <uses-permission android:name="android.permission.HARDWARE_ABSTRACTION_ACCESS" />
+    <uses-permission android:name="cyanogenmod.permission.HARDWARE_ABSTRACTION_ACCESS" />
 
     <!-- This tells the activity manager to not delay any of our activity
          start requests, even if they happen immediately after the user
@@ -682,6 +686,15 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="WifiCallingSettings"
+            android:label="@string/wifi_call_setting"
+            android:theme="@style/SettingsLight">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
     <permission android:name="com.android.phone.CHANGE_NETWORK_MODE"

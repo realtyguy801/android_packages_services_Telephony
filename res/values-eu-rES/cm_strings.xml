@@ -43,7 +43,7 @@
   <string name="label_sdp">SIMa desblokeatzeko PINa</string>
   <string name="label_rn1dp">RUIMaren 1. sarea desblokeatzeko PINa</string>
   <string name="label_rn2dp">RUIMaren 2. sarea desblokeatzeko PINa</string>
-  <string name="label_rhrpd">RUIMaren HRDP-a desblokeatzeko PINa</string>
+  <string name="label_rhrpd">RUIMaren HRPDa desblokeatzeko PINa</string>
   <string name="label_rcdp">RUIM korporatiboa desblokeatzeko PINa</string>
   <string name="label_rspdp">RUIM txartelaren zerbitzu hornitzailea desblokeatzeko PINa</string>
   <string name="label_rdp">RUIMa desblokeatzeko PINa</string>
@@ -55,7 +55,7 @@
   <string name="requesting_sim_unlock">SIMaren desblokeoa eskatzen\u2026</string>
   <string name="requesting_rnw1_unlock">RUIMaren 1. sarearen desblokeoa eskatzen\u2026</string>
   <string name="requesting_rnw2_unlock">RUIMaren 2. sarearen desblokeoa eskatzen\u2026</string>
-  <string name="requesting_rhrpd_unlock">RUIM HRDParen desblokeoa eskatzen\u2026</string>
+  <string name="requesting_rhrpd_unlock">RUIMaren HRPDaren desblokeoa eskatzen\u2026</string>
   <string name="requesting_rsp_unlock">RUIM txartelaren zerbitzu hornitzailearen desblokeoa eskatzen\u2026</string>
   <string name="requesting_rc_unlock">RUIM korporatiboaren desblokeoa eskatzen\u2026</string>
   <string name="requesting_ruim_unlock">RUIMaren desblokeoa eskatzen\u2026</string>
@@ -67,7 +67,7 @@
   <string name="sim_unlock_failed">SIMaren desblokeo eskaerak huts egin du.</string>
   <string name="rnw1_unlock_failed">RUIMaren 1.sarearen desblokeo eskaerak huts egin du.</string>
   <string name="rnw2_unlock_failed">RUIMaren 2. sarearen desblokeo eskaerak huts egin du.</string>
-  <string name="rhrpd_unlock_failed">RUIM HRDParen desblokeoak huts egin du.</string>
+  <string name="rhrpd_unlock_failed">RUIMaren HRPDaren desblokeoak huts egin du.</string>
   <string name="rsp_unlock_failed">RUIMaren zerbitzu hornitzailearen desblokeo eskaerak huts egin du.</string>
   <string name="rc_unlock_failed">RUIM korporatiboaren desblokeo eskaerak huts egin du.</string>
   <string name="ruim_unlock_failed">RUIMaren desblokeo eskaerak huts egin du.</string>
@@ -133,6 +133,7 @@
   <string name="preferred_network_mode_wcdma_only_choice">WCDMA besterik ez</string>
   <string name="preferred_network_mode_gsm_only_choice">GSM besterik ez</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA hobetsia</string>
+  <string name="preferred_network_mode_summary_mismatch"><xliff:g id="configured">%1$s</xliff:g> (oraingoa: <xliff:g id="current">%2$s</xliff:g>)</string>
   <string name="callind_multi_sim">SIM txartelaren ezarpenak</string>
   <string name="sim_card_title">%d. SIM txartela</string>
   <string name="sim_card_summary_empty">SIM erretena hutsik dago</string>
@@ -208,9 +209,22 @@
   <string name="ims_vt_call_quality_unknown">Ezezaguna</string>
   <string name="ims_vt_call_quality_set_failed">Bideo kalitatea ezartzeak huts egin du</string>
   <string name="perm_change_mobile_network">aldatu sare modua (2G/3G)</string>
-  <string name="perm_change_mobile_network_desc">Edozein unetan sarea 2G eta 3G artean aldatzea ahalbidetzen dio aplikazioari. 3G-a azkarragoa da, baina bateria gehiago kontsumitzen du eta gastu handiagoak ekar ditzake.</string>
+  <string name="perm_change_mobile_network_desc">Edozein unetan sarea 2G eta 3G artean aldatzea ahalbidetzen dio aplikazioari. 3G azkarragoa da, baina bateria gehiago kontsumitzen du eta gastu handiagoak ekar ditzake.</string>
   <string name="phone_number_label">Nire telefono zenbakia</string>
   <string name="phone_number_summary">Gailu honetara loturiko zenbakia ezarri</string>
   <string name="msim_mobile_network_settings_title">%d. SIM txartelaren sare mugikor ezarpenak</string>
   <string name="call_recording_format">Dei grabaketaren formatua</string>
+  <string name="ims_get_packet_count_failed">Huts egin du pakete kontaketa jasotzea</string>
+  <string name="ims_get_packet_error_count_failed">Huts egin du pakete erroreen kontaketa jasotzea</string>
+  <string name="ims_get_packet_count_label">Ukitu hemen pakete kontaketa jasotzeko</string>
+  <string name="ims_get_packet_error_count_label">Ukitu hemen pakete erroreen kontaketa jasotzeko</string>
+  <string name="wifi_call_setting">Wi-Fi deien ezarpenak</string>
+  <string name="wifi_calling_title">Wi-Fi deiak</string>
+  <string name="wifi_calling_preference_title">Wi-Fi deien hobespena</string>
+  <string name="ims_set_wifi_calling_preference_failed">Huts egin du WiFi deien hobespena ezartzean</string>
+  <string name="wifi_pref_none">Hobespenik ez</string>
+  <string name="wifi_preferred">Wi-Fi nahiago</string>
+  <string name="wifi_only">Wi-Fi soilik</string>
+  <string name="cellular_preferred">Zelularra nahiago</string>
+  <string name="cellular_only">Zelularra soilik</string>
 </resources>

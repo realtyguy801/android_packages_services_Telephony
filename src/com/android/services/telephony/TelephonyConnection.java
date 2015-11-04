@@ -23,6 +23,7 @@ import android.os.AsyncResult;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.SystemProperties;
 import android.telecom.AudioState;
 import android.telecom.CallProperties;
 import android.telecom.Conference;
@@ -106,10 +107,12 @@ abstract class TelephonyConnection extends Connection {
                     AsyncResult ar = (AsyncResult) msg.obj;
                     com.android.internal.telephony.Connection connection =
                          (com.android.internal.telephony.Connection) ar.result;
-                    if ((connection.getAddress() != null &&
-                                    mOriginalConnection.getAddress() != null &&
+                    if ((mOriginalConnection != null && connection != null) &&
+                            ((connection.getAddress() != null &&
+                            mOriginalConnection.getAddress() != null &&
                             mOriginalConnection.getAddress().contains(connection.getAddress())) ||
-                            mOriginalConnection.getStateBeforeHandover() == connection.getState()) {
+                            mOriginalConnection.getStateBeforeHandover()
+                            == connection.getState())) {
                         Log.d(TelephonyConnection.this, "SettingOriginalConnection " +
                                 mOriginalConnection.toString() + " with " + connection.toString());
                         setOriginalConnection(connection);
@@ -578,6 +581,20 @@ abstract class TelephonyConnection extends Connection {
         }
     }
 
+    public void performAddParticipant(String participant) {
+        Log.d(this, "performAddParticipant - %s", participant);
+        if (getPhone() != null) {
+            try {
+                // We should send AddParticipant request using connection.
+                // Basically, you can make call to conference with AddParticipant
+                // request on single normal call.
+                getPhone().addParticipant(participant);
+            } catch (CallStateException e) {
+                Log.e(this, e, "Failed to performAddParticipant.");
+            }
+        }
+    }
+
     /**
      * Builds call capabilities common to all TelephonyConnections. Namely, apply IMS-based
      * capabilities.
@@ -686,7 +703,9 @@ abstract class TelephonyConnection extends Connection {
 
         // Set video state and capabilities
         setVideoState(mOriginalConnection.getVideoState());
-        updateState();
+        if (mOriginalConnection.isAlive()) {
+            updateState();
+        }
         setLocalVideoCapable(mOriginalConnection.isLocalVideoCapable());
         setRemoteVideoCapable(mOriginalConnection.isRemoteVideoCapable());
         setVideoProvider(mOriginalConnection.getVideoProvider());
@@ -961,6 +980,19 @@ abstract class TelephonyConnection extends Connection {
                     if (Long.toString(subId).equals(sub)){
                         Log.d(this,"EMERGENCY REDIAL");
                         for (TelephonyConnectionListener l : mTelephonyListeners) {
+                            // If the device's modem is capable of failing over to a different voice
+                            // technology we need to clean up and disconnect the existing call prior
+                            // to even attempting a redial. Otherwise we end up tearing down the
+                            // telephony stack on voice tech change without notifying the original
+                            // phone object of the disconnect.
+                            boolean voiceTechEmergencyFailover =
+                                    SystemProperties.getBoolean("ro.ril.em_redial_vt_failover",
+                                            false);
+                            if (voiceTechEmergencyFailover) {
+                                resetDisconnectCause();
+                                setDisconnected(DisconnectCauseUtil.toTelecomDisconnectCause(
+                                        mOriginalConnection.getDisconnectCause()));
+                            }
                             l.onEmergencyRedial(this, handle, PhoneIdToCall);
                         }
                     }

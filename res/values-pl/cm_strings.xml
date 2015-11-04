@@ -133,6 +133,7 @@
   <string name="preferred_network_mode_wcdma_only_choice">Tylko WCDMA</string>
   <string name="preferred_network_mode_gsm_only_choice">Tylko GSM</string>
   <string name="preferred_network_mode_gsm_wcdma_preferred_choice">Preferowane GSM/WCDMA</string>
+  <string name="preferred_network_mode_summary_mismatch"><xliff:g id="configured">%1$s </xliff:g> (obecny: <xliff:g id="current">%2$s </xliff:g>)</string>
   <string name="callind_multi_sim">Ustawienia karty SIM</string>
   <string name="sim_card_title">Karta SIM %d</string>
   <string name="sim_card_summary_empty">Brak karty SIM</string>
@@ -213,4 +214,17 @@
   <string name="phone_number_summary">Ustaw numer telefonu dla tego urządzenia</string>
   <string name="msim_mobile_network_settings_title">Ustawienia sieci komórkowej karty SIM %d</string>
   <string name="call_recording_format">Format nagrywania rozmowy</string>
+  <string name="ims_get_packet_count_failed">Nie udało się uzyskać liczby pakietu</string>
+  <string name="ims_get_packet_error_count_failed">Nie udało się uzyskać liczby błędów pakietu</string>
+  <string name="ims_get_packet_count_label">Naciśnij tutaj, aby uzyskać liczbę pakietu</string>
+  <string name="ims_get_packet_error_count_label">Naciśnij tutaj, aby uzyskać liczbę błędów pakietu</string>
+  <string name="wifi_call_setting">Ustawienia połączeń Wi-Fi</string>
+  <string name="wifi_calling_title">Połączenie Wi-Fi</string>
+  <string name="wifi_calling_preference_title">Preferencje połączeń Wi-Fi</string>
+  <string name="ims_set_wifi_calling_preference_failed">Nie można ustawić preferencji połączeń Wi-Fi</string>
+  <string name="wifi_pref_none">Brak preferencji</string>
+  <string name="wifi_preferred">Preferowane Wi-Fi</string>
+  <string name="wifi_only">Tylko Wi-Fi</string>
+  <string name="cellular_preferred">Preferowana sieć komórkowa</string>
+  <string name="cellular_only">Tylko sieć komórkowa</string>
 </resources>
