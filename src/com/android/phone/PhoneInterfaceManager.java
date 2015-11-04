@@ -3176,6 +3176,16 @@ public void toggleLTE(boolean on) {
         }
     }
 
+    private void enforceCanReadPhoneState(String message) {
+        try {
+            mApp.enforceCallingOrSelfPermission(
+                    android.Manifest.permission.READ_PRIVILEGED_PHONE_STATE, message);
+        } catch (SecurityException e) {
+            mApp.enforceCallingOrSelfPermission(android.Manifest.permission.READ_PHONE_STATE,
+                    message);
+        }
+    }
+
     /**
      * {@hide}
      * Returns the modem stats
@@ -3191,8 +3201,8 @@ public void toggleLTE(boolean on) {
 
     @Override
     public byte[] getAtrUsingSubId(int subId) {
-        if (Binder.getCallingUid() != Process.NFC_UID) {
-            throw new SecurityException("Only Smartcard API may access UICC");
+        if (Binder.getCallingUid() != Process.SYSTEM_UID) {
+            enforceCanReadPhoneState("getAtrUsingSubId");
         }
         Log.d(LOG_TAG, "SIM_GET_ATR ");
         String response = (String)sendRequest(CMD_SIM_GET_ATR, null, subId);
