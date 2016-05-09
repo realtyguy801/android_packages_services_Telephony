@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Proximity sensor enable -->
+    <string name="proximity_mode_title">Abilita il sensore di prossimità</string>
+    <string name="proximity_on_summary">Quando in chiamata, utilizzare il sensore di prossimità per spegnere lo schermo</string>
+    <string name="proximity_off_summary">Quando in chiamata, lo schermo rimane acceso</string>
+
+ <!-- Proximity speaker -->
+    <string name="display_category_prox_auto_speaker_title">Impostazioni degli altoparlanti di prossimità</string>
+    <string name="prox_auto_speaker_title">Altoparlante di prossimità automatico</string>
+    <string name="prox_auto_speaker_summary">Attiva il vivavoce quando il dispositivo viene allontanato dal tuo viso</string>
+    <string name="prox_auto_speaker_delay_title">Ritardo di prossimità degli altoparlanti</string>
+    <string name="prox_auto_speaker_delay_summary">Il tempo di ritardo prima dell\'altoparlante viene attivato</string>
+    <string name="prox_auto_speaker_incall_only_title">Solo quando si è in chiamata</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">Sulle chiamate in uscita, l\'interlocutore diventerà attivo solo dopo la risposta del ricevente</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">L\'interlocutore sarà attivo durante tutti gli stati di chiamata (predefinito)</string>
+
+
+    <!-- Setting title for the flip action setting. -->
+    <string name="flip_action_title">Azione capovolgi</string>
+
+    <!-- Dialog title of the flip action setting. -->
+    <string name="flip_action_dialog_title">Capovolgere il dispositivo a\u2026</string>
+
+    <!-- Setting summary for the flip action setting. -->
+    <string name="flip_action_summary">Capovolgendo verso il basso il telefono, <xliff:g id="action">%s</xliff:g></string>
+
+    <!-- Values for flip action array entries -->
+    <string name="entry_do_nothing">Non fare nulla</string>
+    <string name="entry_mute_ringer">Disattiva la suoneria</string>
+    <string name="entry_dismiss_call">Chiudi la chiamata</string>
+    <string name="summary_do_nothing">Non fare nulla</string>
+    <string name="summary_mute_ringer">Disattiva la suoneriar</string>
+    <string name="summary_dismiss_call">Chiudi la chiamata</string>
+
+    <!-- Title for the option managing whether or not to use intrusive incall UI. -->
+    <string name="use_intrusive_call_title">Chiamate in entrata invadenti</string>
+    <string name="use_intrusive_call_summary">Mostra una notifica a schermo intero su chiamata in arrivo anche quando non sono nella schermata di blocco</string>
+
+</resources>
