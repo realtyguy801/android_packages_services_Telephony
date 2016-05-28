@@ -3,8 +3,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">Közelségérzékelő engedélyezése</string>
-  <string name="proximity_on_summary">Hívás alatt a bekapcsolt közelségérzékelő kikapcsolja a kijelzőt</string>
-  <string name="proximity_off_summary">Hívás alatt a kijelző bekapcsolva marad</string>
+  <string name="proximity_on_summary">Hívás alatt a bekapcsolt közelségérzékelő kapcsolja ki a kijelzőt</string>
+  <string name="proximity_off_summary">Hívás alatt a kijelző maradjon bekapcsolva</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Közelség hangszóró beállítások</string>
   <string name="prox_auto_speaker_title">Automatikus közelség hangszóró</string>
@@ -12,7 +12,7 @@
   <string name="prox_auto_speaker_delay_title">Közelségi hangszóró késleltetés</string>
   <string name="prox_auto_speaker_delay_summary">Időtartam, mielőtt a hangszóró aktiválódna</string>
   <string name="prox_auto_speaker_incall_only_title">Csak hívás közben</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">A kimenő hívások esetén a hallgató csak akkor lesz aktív, ha a fogadó fél válaszolt</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">A kimenő hívások esetén a hallgató csak akkor lesz aktív, miután a fogadó fél válaszolt</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Hallgató aktív lesz az összes felvett telefon állapot alatt (alapértelmezett)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Művelet megfordításkor</string>
@@ -21,10 +21,10 @@
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">A telefon megfordítására <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Nincs művelet</string>
+  <string name="entry_do_nothing">Ne csináljon semmit</string>
   <string name="entry_mute_ringer">Csengetés némítása</string>
   <string name="entry_dismiss_call">Hívás elutasítása</string>
-  <string name="summary_do_nothing">nincs művelet</string>
+  <string name="summary_do_nothing">ne csináljon semmit</string>
   <string name="summary_mute_ringer">a csengés elnémítása</string>
   <string name="summary_dismiss_call">a hívás elutasítása</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->

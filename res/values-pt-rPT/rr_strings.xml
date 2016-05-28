@@ -15,7 +15,7 @@
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas efetuadas, o altifalante só se ativará após o recetor responder</string>
   <string name="prox_auto_speaker_incall_only_summary_off">O altifalante estará ativo durante todos os estados da chamada (padrão)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Ação de virar</string>
+  <string name="flip_action_title">Ação ao virar</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Virar o dispositivo para\u2026</string>
   <!-- Setting summary for the flip action setting. -->
@@ -28,6 +28,6 @@
   <string name="summary_mute_ringer">silenciar o toque</string>
   <string name="summary_dismiss_call">rejeitar a chamada</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Chamadas intrusivas recebidas</string>
+  <string name="use_intrusive_call_title">Chamadas recebidas intrusivas</string>
   <string name="use_intrusive_call_summary">Mostrar uma notificação de ecrã cheio na chamada recebida, mesmo quando não estiver no ecrã de bloqueio</string>
 </resources>
