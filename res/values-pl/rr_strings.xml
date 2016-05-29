@@ -13,21 +13,21 @@
   <string name="prox_auto_speaker_delay_summary">Czas opóźnienia przed aktywacją głośnika</string>
   <string name="prox_auto_speaker_incall_only_title">Tylko podczas rozmowy</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Dla połączeń wychodzących, detektor będzie aktywny tylko po otrzymaniu odpowiedzi</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Detektor będzie aktywny dla wszystkich rodzajów połączeń gdy jest w użyciu (domyślnie)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Odwrócenie</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">Odwróć urządzenie, aby\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Odwrócenie urządzenia spowoduje <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">Nic nie spowoduje</string>
+  <string name="entry_mute_ringer">Wyciszy dzwonek</string>
+  <string name="entry_dismiss_call">Odrzuć połączenie</string>
+  <string name="summary_do_nothing">nic nie rób</string>
+  <string name="summary_mute_ringer">wyciszy dzwonek</string>
+  <string name="summary_dismiss_call">odrzuci połączenie</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Intrusive incoming calls</string>
+  <string name="use_intrusive_call_title">Uciążliwe połączenia przychodzące</string>
   <string name="use_intrusive_call_summary">Pokazuj pełnoekranowe powiadomienia podczas połączenia, nawet nie na ekranie blokady</string>
 </resources>
