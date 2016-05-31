@@ -6,7 +6,7 @@
   <string name="proximity_on_summary">Quando estiver em ligação, utilize sensor de proximidade para desligar a tela</string>
   <string name="proximity_off_summary">Quando estiver em chamada, a tela permanecerá ligada</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Configurações viva voz promixidade</string>
+  <string name="display_category_prox_auto_speaker_title">Configurações viva voz proximidade</string>
   <string name="prox_auto_speaker_title">Viva-voz automático sensor de proximidade </string>
   <string name="prox_auto_speaker_summary">Ativar viva-voz quando o dispositivo for distanciado do seu rosto</string>
   <string name="prox_auto_speaker_delay_title">Atraso do sensor de proximidade </string>
