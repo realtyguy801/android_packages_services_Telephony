@@ -13,13 +13,13 @@
   <string name="prox_auto_speaker_delay_summary">Zeitverzögerung bis Lautsprecher aktiviert wird</string>
   <string name="prox_auto_speaker_incall_only_title">Nur während eines Anrufs</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Bei ausgehenden Anrufen wird der Hörer erst dann aktiv, wenn der Empfänger antwortet</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Der Hörer ist während des gesamten Telefonats aktiv (Standard).</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Aktion beim Umdrehen</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Gerät schütteln nach\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Das Gerät nach unten schütteln zum <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">Nichts tun</string>
   <string name="entry_mute_ringer">Rufton stummschalten</string>
@@ -29,5 +29,5 @@
   <string name="summary_dismiss_call">den Anruf abweisen</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
   <string name="use_intrusive_call_title">Aufdringliche Anrufe</string>
-  <string name="use_intrusive_call_summary">Show a full screen notification on incoming call even when not on lockscreen</string>
+  <string name="use_intrusive_call_summary">Zeigen Sie eine Vollbild-Benachrichtigung bei eingehenden Anruf auch im lockscreen</string>
 </resources>
