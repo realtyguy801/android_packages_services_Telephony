@@ -3,7 +3,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">Közelségérzékelő engedélyezése</string>
-  <string name="proximity_on_summary">Hívás alatt a bekapcsolt közelségérzékelő kapcsolja ki a kijelzőt</string>
+  <string name="proximity_on_summary">Hívás alatt a bekapcsolt közelségérzékelő kikapcsolja a kijelzőt</string>
   <string name="proximity_off_summary">Hívás alatt a kijelző maradjon bekapcsolva</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Közelség hangszóró beállítások</string>
