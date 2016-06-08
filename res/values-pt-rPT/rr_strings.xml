@@ -8,9 +8,9 @@
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Definições de altifalante de proximidade</string>
   <string name="prox_auto_speaker_title">Altifalante de proximidade automático</string>
-  <string name="prox_auto_speaker_summary">Ativar o alta-voz quando o dispositivo é removido do seu rosto</string>
+  <string name="prox_auto_speaker_summary">Ativar o alta-voz quando o dispositivo é removido da tua cara</string>
   <string name="prox_auto_speaker_delay_title">Atraso do altifalante de proximidade</string>
-  <string name="prox_auto_speaker_delay_summary">Tempo de atraso antes do altifalante está ativado</string>
+  <string name="prox_auto_speaker_delay_summary">Tempo de atraso antes do altifalante estar ativo</string>
   <string name="prox_auto_speaker_incall_only_title">Apenas quando numa chamada</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas efetuadas, o altifalante só se ativará após o recetor responder</string>
   <string name="prox_auto_speaker_incall_only_summary_off">O altifalante estará ativo durante todos os estados da chamada (padrão)</string>
@@ -21,10 +21,10 @@
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">Virar o telefone ao contrário irá<xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Não fazer nada</string>
+  <string name="entry_do_nothing">Fazer nada</string>
   <string name="entry_mute_ringer">Silenciar o toque</string>
   <string name="entry_dismiss_call">Rejeitar chamada</string>
-  <string name="summary_do_nothing">não fazer nada</string>
+  <string name="summary_do_nothing">fazer nada</string>
   <string name="summary_mute_ringer">silenciar o toque</string>
   <string name="summary_dismiss_call">rejeitar a chamada</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
