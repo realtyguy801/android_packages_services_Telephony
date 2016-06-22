@@ -3,8 +3,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">निकटता सेंसर सक्षम करें</string>
-  <string name="proximity_on_summary">जब कॉल, में निकटता सेंसर स्क्रीन बंद करने के लिए का उपयोग करें</string>
-  <string name="proximity_off_summary">में जब कॉल, स्क्रीन पर रहेगा</string>
+  <string name="proximity_on_summary">जब कॉल में, निकटता सेंसर स्क्रीन बंद करने के लिए का उपयोग करें</string>
+  <string name="proximity_off_summary">जब कॉल में, स्क्रीन पर रहेगा</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">निकटता स्पीकर सेटिंग्स</string>
   <string name="prox_auto_speaker_title">स्वत: निकटता वक्ता</string>
@@ -19,10 +19,10 @@
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">पलटे डिवाइस \u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">फोन पलटऩे से <xliff:g id="action">%s </xliff:g></string>
+  <string name="flip_action_summary">फोन पलटऩे से <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">कुछ न करें</string>
-  <string name="entry_mute_ringer">म्यूट रिंगर</string>
+  <string name="entry_mute_ringer">घंटी को मूक करे</string>
   <string name="entry_dismiss_call">कॉल को ख़ारिज करें</string>
   <string name="summary_do_nothing">कुछ न करें</string>
   <string name="summary_mute_ringer">रिंगर म्यूट करें</string>

@@ -6,7 +6,7 @@
   <string name="proximity_on_summary">在呼叫中，使用距离传感器来关闭屏幕</string>
   <string name="proximity_off_summary">在呼叫中，屏幕将保持开启</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">清除所有最近任务</string>
+  <string name="display_category_prox_auto_speaker_title">距离感应扬声器设置</string>
   <string name="prox_auto_speaker_title">自动距离感应扬声器</string>
   <string name="prox_auto_speaker_summary">从脸部移开时启用免提</string>
   <string name="prox_auto_speaker_delay_title">距离感应扬声器延迟</string>
