@@ -21,7 +21,7 @@
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">翻轉手機時會<xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">甚麼都不做</string>
+  <string name="entry_do_nothing">無動作</string>
   <string name="entry_mute_ringer">靜音</string>
   <string name="entry_dismiss_call">掛斷電話</string>
   <string name="summary_do_nothing">無動作</string>
