@@ -8,26 +8,26 @@
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">自動擴音設定</string>
   <string name="prox_auto_speaker_title">自動擴音</string>
-  <string name="prox_auto_speaker_summary">在裝置遠離臉部時自動啟用擴音</string>
+  <string name="prox_auto_speaker_summary">裝置遠離臉部時自動啟用擴音</string>
   <string name="prox_auto_speaker_delay_title">自動擴音延遲</string>
   <string name="prox_auto_speaker_delay_summary">啟用擴音前的延遲時間</string>
   <string name="prox_auto_speaker_incall_only_title">僅通話時</string>
   <string name="prox_auto_speaker_incall_only_summary_on">僅在電話接通時啟用麥克風</string>
   <string name="prox_auto_speaker_incall_only_summary_off">持續啟用麥克風 (預設)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">翻轉行為</string>
+  <string name="flip_action_title">翻轉動作</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">翻轉裝置以\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">翻轉手機時會<xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">翻轉手機時<xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">甚麼都不做</string>
+  <string name="entry_do_nothing">不執行任何動作</string>
   <string name="entry_mute_ringer">靜音</string>
   <string name="entry_dismiss_call">掛斷電話</string>
-  <string name="summary_do_nothing">無動作</string>
+  <string name="summary_do_nothing">不執行任何動作</string>
   <string name="summary_mute_ringer">靜音</string>
   <string name="summary_dismiss_call">掛斷電話</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">打擾的來電</string>
-  <string name="use_intrusive_call_summary">在鎖定螢幕外使用全屏來電顯示</string>
+  <string name="use_intrusive_call_title">打擾來電</string>
+  <string name="use_intrusive_call_summary">即使在鎖定畫面外，依然使用全螢幕來電通知</string>
 </resources>
