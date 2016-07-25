@@ -3,7 +3,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">Włącz czujnik zbliżeniowy</string>
-  <string name="proximity_on_summary">Użyj czujnika zbliżeniowego, aby wyłączyć ekranu podczas rozmowy</string>
+  <string name="proximity_on_summary">Użyj czujnika zbliżeniowego, aby wyłączyć ekran podczas rozmowy</string>
   <string name="proximity_off_summary">Podczas rozmowy ekran pozostanie włączony</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Ustawienia czujnika zbliżeniowego dla głośnika</string>
@@ -15,7 +15,7 @@
   <string name="prox_auto_speaker_incall_only_summary_on">Dla połączeń wychodzących, detektor będzie aktywny tylko po otrzymaniu odpowiedzi</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Detektor będzie aktywny dla wszystkich rodzajów połączeń gdy jest w użyciu (domyślnie)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Odwrócenie</string>
+  <string name="flip_action_title">Reakcja na odwrócenie urządzenia</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Odwróć urządzenie, aby\u2026</string>
   <!-- Setting summary for the flip action setting. -->
@@ -23,7 +23,7 @@
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">Nic nie spowoduje</string>
   <string name="entry_mute_ringer">Wyciszy dzwonek</string>
-  <string name="entry_dismiss_call">Odrzuć połączenie</string>
+  <string name="entry_dismiss_call">Odrzuci połączenie</string>
   <string name="summary_do_nothing">nic nie rób</string>
   <string name="summary_mute_ringer">wyciszy dzwonek</string>
   <string name="summary_dismiss_call">odrzuci połączenie</string>
