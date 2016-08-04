@@ -13,7 +13,7 @@
   <string name="prox_auto_speaker_delay_summary">Délai avant l\'activation du haut-parleur</string>
   <string name="prox_auto_speaker_incall_only_title">Seulement pendant les appels</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Lors des appels sortants, le haut-parleur s\'active après la réponse du correspondant</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Le haut-parleur s\'active pour tous les états de l\'appel (Par défaut)</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Le haut-parleur s\'active a n\'importe quel moment de l\'appel (Par défaut)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Action au retournement</string>
   <!-- Dialog title of the flip action setting. -->
