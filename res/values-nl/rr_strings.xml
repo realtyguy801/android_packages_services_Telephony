@@ -8,26 +8,26 @@
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Instellingen nabijheid luidspreker</string>
   <string name="prox_auto_speaker_title">Automatische nabijheid luidspreker</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone when the device is removed from your face</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
+  <string name="prox_auto_speaker_summary">Luidspreker inschakelen wanneer het apparaat wordt verwijderd van het gezicht</string>
+  <string name="prox_auto_speaker_delay_title">Nabijheidssensorvertraging</string>
+  <string name="prox_auto_speaker_delay_summary">Wachttijd voordat de luidspreker wordt geactiveerd</string>
   <string name="prox_auto_speaker_incall_only_title">Alleen tijdens gesprek</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Bij uitgaande oproepen zal de luidspreker pas geactiveerd worden wanneer de oproep beantwoord wordt</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">De luidspreker is actief gedurende het hele gesprek (standaard)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">Omdraai-actie</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">Draai apparaat naar\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">De telefoon omdraaien zal <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
+  <string name="entry_do_nothing">Niets doen</string>
   <string name="entry_mute_ringer">Beltoon dempen</string>
   <string name="entry_dismiss_call">Oproep negeren</string>
-  <string name="summary_do_nothing">do nothing</string>
+  <string name="summary_do_nothing">niets doen</string>
   <string name="summary_mute_ringer">beltoon dempen</string>
   <string name="summary_dismiss_call">negeer oproep</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Intrusive incoming calls</string>
-  <string name="use_intrusive_call_summary">Show a full screen notification on incoming call even when not on lockscreen</string>
+  <string name="use_intrusive_call_title">Schermvullende oproepen</string>
+  <string name="use_intrusive_call_summary">Ook bij een ontgrendeld scherm oproepen het gehele scherm laten vullen</string>
 </resources>
