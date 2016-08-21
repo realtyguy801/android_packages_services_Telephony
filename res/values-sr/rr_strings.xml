@@ -19,11 +19,11 @@
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">Окрените уређај да\u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Окретање телефона на доле ће <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">Окретање телефона на доле <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">не ради ништа</string>
   <string name="entry_mute_ringer">утишава звоно</string>
-  <string name="entry_dismiss_call">Одбаци позив</string>
+  <string name="entry_dismiss_call">одбија позив</string>
   <string name="summary_do_nothing">не ради ништа</string>
   <string name="summary_mute_ringer">утишава звоно</string>
   <string name="summary_dismiss_call">одбија позив</string>

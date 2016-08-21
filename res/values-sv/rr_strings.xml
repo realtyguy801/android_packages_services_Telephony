@@ -3,8 +3,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">Aktivera avståndssensor</string>
-  <string name="proximity_on_summary">När i samtal, använda närhetssensor för att stänga av skärmen</string>
-  <string name="proximity_off_summary">När i samtal, kommer skärmen att vara på</string>
+  <string name="proximity_on_summary">Under samtal, använd närhetssensor för att stänga av skärmen</string>
+  <string name="proximity_off_summary">Under samtal, kommer skärmen att vara på</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">Närhet högtalarinställningar</string>
   <string name="prox_auto_speaker_title">Automatisk närhet högtalare</string>
@@ -26,7 +26,7 @@
   <string name="entry_dismiss_call">Avvisa samtalet</string>
   <string name="summary_do_nothing">gör inget</string>
   <string name="summary_mute_ringer">stänga av ringsignalen</string>
-  <string name="summary_dismiss_call">avvisa samtalet</string>
+  <string name="summary_dismiss_call">Avvisa samtalet</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
   <string name="use_intrusive_call_title">Påträngande inkommande samtal</string>
   <string name="use_intrusive_call_summary">Visa en fullskärm avisering på inkommande samtal även när den inte på låsskärm</string>
