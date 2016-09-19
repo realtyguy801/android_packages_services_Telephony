@@ -6,7 +6,7 @@
   <string name="proximity_on_summary">Durante uma chamada, usar o sensor de proximidade para desligar o ecrã</string>
   <string name="proximity_off_summary">Durante uma chamada, o ecrã permanecerá ligado</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Definições de altifalante de proximidade</string>
+  <string name="display_category_prox_auto_speaker_title">Definições do altifalante de proximidade</string>
   <string name="prox_auto_speaker_title">Altifalante de proximidade automático</string>
   <string name="prox_auto_speaker_summary">Ativar o alta-voz quando o dispositivo é removido da tua cara</string>
   <string name="prox_auto_speaker_delay_title">Atraso do altifalante de proximidade</string>

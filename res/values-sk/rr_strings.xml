@@ -9,11 +9,11 @@
   <string name="display_category_prox_auto_speaker_title">Blízkosť nastavenia reproduktorov</string>
   <string name="prox_auto_speaker_title">Automatická blízkosť reproduktora</string>
   <string name="prox_auto_speaker_summary">Zapnúť hlasný odposluch, keď zariadenie je odstránené z tváre</string>
-  <string name="prox_auto_speaker_delay_title">Blízkosť nastavenia oneskorenie reproduktora</string>
+  <string name="prox_auto_speaker_delay_title">Blízkosť nastavenia oneskorenia reproduktora</string>
   <string name="prox_auto_speaker_delay_summary">Časové oneskorenie pred aktiváciou reproduktora</string>
   <string name="prox_auto_speaker_incall_only_title">Len počas hovoru</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">Pri odchádzajúcich hovoroch sa reproduktor aktivuje pri prijatie hovoru protistranou</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Reproduktor bude aktívny vždy, aj pri zvonenie (predvolené)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Pri odchádzajúcich hovoroch sa reproduktor aktivuje pri prijatí hovoru protistranou</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Reproduktor bude aktívny vždy, aj pri zvoneni (predvolené)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Akcia pri prevrátení</string>
   <!-- Dialog title of the flip action setting. -->

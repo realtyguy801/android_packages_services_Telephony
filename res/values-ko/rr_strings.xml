@@ -15,19 +15,19 @@
   <string name="prox_auto_speaker_incall_only_summary_on">발신 중일 경우, 스피커 센서는 수신자가 회신하는 경우에만 활성화됩니다.</string>
   <string name="prox_auto_speaker_incall_only_summary_off">스피커는 모든 통화 중에 활성화됩니다. (기본값)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">플립 액션</string>
+  <string name="flip_action_title">뒤집기 동작</string>
   <!-- Dialog title of the flip action setting. -->
   <string name="flip_action_dialog_title">\u2026로 기기 뒤집기</string>
   <!-- Setting summary for the flip action setting. -->
   <string name="flip_action_summary">휴대전화를 뒤집으면 <xliff:g id="action">%s</xliff:g></string>
   <!-- Values for flip action array entries -->
   <string name="entry_do_nothing">아무것도 하지않음</string>
-  <string name="entry_mute_ringer">벨소리 음소거</string>
+  <string name="entry_mute_ringer">음소거</string>
   <string name="entry_dismiss_call">통화 거부</string>
   <string name="summary_do_nothing">아무것도 하지 않습니다</string>
-  <string name="summary_mute_ringer">벨소리 음소거</string>
+  <string name="summary_mute_ringer">음소거</string>
   <string name="summary_dismiss_call">통화 거절</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Intrusive incoming calls</string>
+  <string name="use_intrusive_call_title">거슬리는 수신전화</string>
   <string name="use_intrusive_call_summary">잠금화면에 있지 않더라도 전체화면 전화 알림 표시</string>
 </resources>
