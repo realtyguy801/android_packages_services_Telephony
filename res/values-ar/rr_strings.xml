@@ -7,27 +7,27 @@
   <string name="proximity_off_summary">ستبقى الشاشة مُضاءة خلال المكالمات</string>
   <!-- Proximity speaker -->
   <string name="display_category_prox_auto_speaker_title">إعدادات مكبر الصوت </string>
-  <string name="prox_auto_speaker_title">Automatic proximity speaker</string>
+  <string name="prox_auto_speaker_title">تعيين تلقائي للمتكلم</string>
   <string name="prox_auto_speaker_summary">تمكين مكبر الصوت عند ابعاد الجهاز عن وجهك</string>
-  <string name="prox_auto_speaker_delay_title">Proximity speaker delay</string>
-  <string name="prox_auto_speaker_delay_summary">Time delay before speaker is activated</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_delay_title">تأخير تلقائي للمتكلم</string>
+  <string name="prox_auto_speaker_delay_summary">وقت التأخير قبل أن يتم تنشيط المتكلم</string>
+  <string name="prox_auto_speaker_incall_only_title">فقط في حين وقت المكالمة</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">على المكالمات الصادرة، المستمع فقط ستصبح نشطة بعد الإجابات الطرف المتلقي</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">المستمع وسوف تعمل خلال جميع الدول استدعاء أوفهوك (افتراضي)</string>
   <!-- Setting title for the flip action setting. -->
-  <string name="flip_action_title">Flip action</string>
+  <string name="flip_action_title">انعكاس العمل</string>
   <!-- Dialog title of the flip action setting. -->
-  <string name="flip_action_dialog_title">Flip device to\u2026</string>
+  <string name="flip_action_dialog_title">قلب الجهاز الى \u2026</string>
   <!-- Setting summary for the flip action setting. -->
-  <string name="flip_action_summary">Flipping the phone down will <xliff:g id="action">%s</xliff:g></string>
+  <string name="flip_action_summary">قلب الهاتف للاسفل سوف <xliff:g id="action"> %s </xliff:g></string>
   <!-- Values for flip action array entries -->
-  <string name="entry_do_nothing">Do nothing</string>
-  <string name="entry_mute_ringer">Mute ringer</string>
-  <string name="entry_dismiss_call">Dismiss call</string>
-  <string name="summary_do_nothing">do nothing</string>
-  <string name="summary_mute_ringer">mute the ringer</string>
-  <string name="summary_dismiss_call">dismiss the call</string>
+  <string name="entry_do_nothing">‮لا تفعل شيئا</string>
+  <string name="entry_mute_ringer">كتم صوت الرنين</string>
+  <string name="entry_dismiss_call">تجاهل المكالمة</string>
+  <string name="summary_do_nothing">لا تفعل شيئا</string>
+  <string name="summary_mute_ringer">كتم صوت الرنين</string>
+  <string name="summary_dismiss_call">تجاهل المكالمة</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Intrusive incoming calls</string>
-  <string name="use_intrusive_call_summary">Show a full screen notification on incoming call even when not on lockscreen</string>
+  <string name="use_intrusive_call_title">تدخلي المكالمات الواردة</string>
+  <string name="use_intrusive_call_summary">إظهار بيانات كاملة على الشاشة في مكالمة واردة حتى في شاشة الاغلاق</string>
 </resources>

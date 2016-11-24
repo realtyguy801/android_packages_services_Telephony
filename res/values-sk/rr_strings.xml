@@ -6,11 +6,11 @@
   <string name="proximity_on_summary">Použiť snímač vzdialenosti pre vypnutie obrazovky počas hovoru</string>
   <string name="proximity_off_summary">Obrazovka zostane zapnutá počas hovoru</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Blízkosť nastavenia reproduktorov</string>
-  <string name="prox_auto_speaker_title">Automatická blízkosť reproduktora</string>
-  <string name="prox_auto_speaker_summary">Zapnúť hlasný odposluch, keď zariadenie je odstránené z tváre</string>
-  <string name="prox_auto_speaker_delay_title">Blízkosť nastavenia oneskorenia reproduktora</string>
-  <string name="prox_auto_speaker_delay_summary">Časové oneskorenie pred aktiváciou reproduktora</string>
+  <string name="display_category_prox_auto_speaker_title">Nastavenia automatického prepínania reproduktorov</string>
+  <string name="prox_auto_speaker_title">Automatický hlasitý odposluch</string>
+  <string name="prox_auto_speaker_summary">Zapnúť hlasitý odposluch, keď oddialite zariadenie od tváre</string>
+  <string name="prox_auto_speaker_delay_title">Oneskorenie prepnutia na hlasitý odposluch</string>
+  <string name="prox_auto_speaker_delay_summary">Časové oneskorenie pred zapnutím reproduktora</string>
   <string name="prox_auto_speaker_incall_only_title">Len počas hovoru</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Pri odchádzajúcich hovoroch sa reproduktor aktivuje pri prijatí hovoru protistranou</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Reproduktor bude aktívny vždy, aj pri zvoneni (predvolené)</string>
@@ -28,6 +28,6 @@
   <string name="summary_mute_ringer">stlmiť zvonenie</string>
   <string name="summary_dismiss_call">zamietnuť hovor</string>
   <!-- Title for the option managing whether or not to use intrusive incall UI. -->
-  <string name="use_intrusive_call_title">Rušivé prichádzajúce hovory</string>
-  <string name="use_intrusive_call_summary">Zobraziť upozornenie prichádzajúceho hovoru na celú obrazovku, aj keď je obrazovka zamknutá</string>
+  <string name="use_intrusive_call_title">Nežiadúce prichádzajúce hovory</string>
+  <string name="use_intrusive_call_summary">Zobraziť upozornenie prichádzajúceho hovoru na celú obrazovku, aj keď nie je obrazovka zamknutá</string>
 </resources>

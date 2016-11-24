@@ -3,17 +3,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity sensor enable -->
   <string name="proximity_mode_title">Bật cảm biến tiệm cận</string>
-  <string name="proximity_on_summary">Khi trong cuộc gọi, sử dụng cảm biến để tắt màn hình</string>
-  <string name="proximity_off_summary">Khi cuộc gọi, màn hình sẽ vẫn hoạt động</string>
+  <string name="proximity_on_summary">Khi trong cuộc gọi, sử dụng cảm biến tiệm cận để tắt màn hình</string>
+  <string name="proximity_off_summary">Khi trong cuộc gọi, màn hình sẽ vẫn bật</string>
   <!-- Proximity speaker -->
-  <string name="display_category_prox_auto_speaker_title">Cài đặt loa nhỏ</string>
-  <string name="prox_auto_speaker_title">Loa nhỏ tự động</string>
-  <string name="prox_auto_speaker_summary">Bật loa lớn khi thiết bị rời khỏi mặt bạn</string>
-  <string name="prox_auto_speaker_delay_title">Độ trễ cảm biến tiệm cận</string>
-  <string name="prox_auto_speaker_delay_summary">Thời gian trễ trước khi loa được kích hoạt</string>
+  <string name="display_category_prox_auto_speaker_title">Cài đặt loa thoại gần tai</string>
+  <string name="prox_auto_speaker_title">Cảm biến tiệm cận loa tự động</string>
+  <string name="prox_auto_speaker_summary">Bật loa ngoài điện thoại khi thiết bị rời khỏi mặt bạn</string>
+  <string name="prox_auto_speaker_delay_title">Độ trễ cảm biến tiệm cận loa</string>
+  <string name="prox_auto_speaker_delay_summary">Thời gian trễ trước khi loa ngoài được kích hoạt</string>
   <string name="prox_auto_speaker_incall_only_title">Chỉ trong khi gọi</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">Ở cuộc gọi đi, người nghe sẽ chỉ trở nên kích hoạt sau khi các bên nhận được câu trả lời</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Người nghe sẽ được hoạt động trong tất cả các tiểu bang gọi offhook ( mặc định)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Trong các cuộc gọi đi, loa ngoài sẽ chỉ kích hoạt sau khi bên nhận trả lời</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Loa ngoài sẽ được kích hoạt trong tất cả trạng thái nhấc máy gọi ( mặc định)</string>
   <!-- Setting title for the flip action setting. -->
   <string name="flip_action_title">Hành động lật</string>
   <!-- Dialog title of the flip action setting. -->
