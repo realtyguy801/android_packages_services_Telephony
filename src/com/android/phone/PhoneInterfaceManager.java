@@ -154,6 +154,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
     private static final int CMD_OPEN_CHANNEL_WITH_P2 = 49;
 
     private static final String PRIMARY_CARD_PROPERTY_NAME = "persist.radio.primarycard";
+    private static final int CMD_TOGGLE_2G = 998;
     private static final int CMD_TOGGLE_LTE = 99; // not used yet
 
     /** The singleton instance. */
@@ -167,6 +168,7 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
     private MainThreadHandler mMainThreadHandler;
     private SubscriptionController mSubscriptionController;
     private SharedPreferences mTelephonySharedPreferences;
+    private int pNetwork;
 
     private static final String PREF_CARRIERS_ALPHATAG_PREFIX = "carrier_alphtag_";
     private static final String PREF_CARRIERS_NUMBER_PREFIX = "carrier_number_";
@@ -1453,6 +1455,39 @@ public class PhoneInterfaceManager extends ITelephony.Stub {
               Settings.Global.PREFERRED_NETWORK_MODE, preferredNetworkMode);
         return network;
     }
+
+     public void toggle2G(boolean on) {
+        int network = -1;
+        final int phoneSubId = mSubscriptionController.getDefaultDataSubId();
+        Phone aphone = getPhone(phoneSubId);
+
+        if (on) {
+            if(phoneSubId != 0) {
+                pNetwork = android.provider.Settings.Global.getInt(mApp.getContentResolver(),
+                    android.provider.Settings.Global.PREFERRED_NETWORK_MODE + phoneSubId, 0);
+            } else {
+                pNetwork = android.provider.Settings.Global.getInt(mApp.getContentResolver(),
+                    android.provider.Settings.Global.PREFERRED_NETWORK_MODE, 0);
+            }
+            network = Phone.NT_MODE_GSM_ONLY;
+        } else {
+            network = pNetwork;
+        }
+
+        aphone.setPreferredNetworkType(network,
+                mMainThreadHandler.obtainMessage(CMD_TOGGLE_2G));
+        if(phoneSubId != 0) {
+            android.provider.Settings.Global.putInt(mApp.getContentResolver(),
+                android.provider.Settings.Global.PREFERRED_NETWORK_MODE + phoneSubId, network);
+        } else {
+            android.provider.Settings.Global.putInt(mApp.getContentResolver(),
+                android.provider.Settings.Global.PREFERRED_NETWORK_MODE, network);
+        }
+
+        log("DefaultSubId: " + phoneSubId);
+        log("NetworkType: " + network);
+    }
+
 public void toggleLTE(boolean on) {
         int network = getPreferredNetworkMode();
         boolean isCdmaDevice = mPhone.getLteOnCdmaMode() == PhoneConstants.LTE_ON_CDMA_TRUE;
