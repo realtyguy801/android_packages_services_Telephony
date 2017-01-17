@@ -84,4 +84,9 @@
     <!-- Network mode picker dialog title -->
     <string name="choose_network_mode_title">Choose network mode</string>
     <string name="choose_network_mode_system_default">System default</string>
+    
+    <!-- Call recording format -->
+    <string name="call_recording_format">Call recording format</string>
+    <string name="wb_amr_format" translatable="false">AMR-WB</string>
+    <string name="aac_format" translatable="false">AAC</string>
 </resources>
