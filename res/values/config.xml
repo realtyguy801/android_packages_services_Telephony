@@ -255,4 +255,7 @@
          This needs to be re designed as the same config is
          used by Dialer also to make a speed dial from Dialer-->
     <integer name="speed_dial_emergency_number_assigned_key">9</integer>
+
+    <!-- Disable speaker proximity preference for problematic devices -->
+    <bool name="config_enabled_speakerprox" translatable="false">true</bool>
 </resources>
