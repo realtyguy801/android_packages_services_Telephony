@@ -23,6 +23,7 @@ import android.preference.CheckBoxPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.telecom.TelecomManager;
 import android.telephony.CarrierConfigManager;
@@ -70,7 +71,7 @@ public class AccessibilitySettingsFragment extends PreferenceFragment {
     private AudioManager mAudioManager;
 
     private TtyModeListPreference mButtonTty;
-    private CheckBoxPreference mButtonHac;
+    private SwitchPreference mButtonHac;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -83,7 +84,7 @@ public class AccessibilitySettingsFragment extends PreferenceFragment {
 
         mButtonTty = (TtyModeListPreference) findPreference(
                 getResources().getString(R.string.tty_mode_key));
-        mButtonHac = (CheckBoxPreference) findPreference(BUTTON_HAC_KEY);
+        mButtonHac = (SwitchPreference) findPreference(BUTTON_HAC_KEY);
 
         if (PhoneGlobals.getInstance().phoneMgr.isTtyModeSupported()) {
             mButtonTty.init();

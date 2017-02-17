@@ -122,11 +122,11 @@ public class CallFeaturesSetting extends PreferenceActivity
     private SubscriptionInfoHelper mSubscriptionInfoHelper;
     private TelecomManager mTelecomManager;
 
-    private CheckBoxPreference mButtonAutoRetry;
+    private SwitchPreference mButtonAutoRetry;
     private PreferenceScreen mVoicemailSettingsScreen;
     private SwitchPreference mButtonProximity;
 
-    private CheckBoxPreference mEnableVideoCalling;
+    private SwitchPreference mEnableVideoCalling;
     
     // Call recording format
     private static final String CALL_RECORDING_FORMAT = "call_recording_format";
@@ -310,9 +310,9 @@ public class CallFeaturesSetting extends PreferenceActivity
         mVoicemailSettingsScreen.setIntent(mSubscriptionInfoHelper.getIntent(
                 VoicemailSettingsActivity.class));
 
-        mButtonAutoRetry = (CheckBoxPreference) findPreference(BUTTON_RETRY_KEY);
+        mButtonAutoRetry = (SwitchPreference) findPreference(BUTTON_RETRY_KEY);
 
-        mEnableVideoCalling = (CheckBoxPreference) findPreference(ENABLE_VIDEO_CALLING_KEY);
+        mEnableVideoCalling = (SwitchPreference) findPreference(ENABLE_VIDEO_CALLING_KEY);
 
         mFlipAction = (ListPreference) findPreference(FLIP_ACTION_KEY);
 
@@ -398,7 +398,7 @@ public class CallFeaturesSetting extends PreferenceActivity
 
                     if (carrierConfig.getBoolean(
                             CarrierConfigManager.KEY_VOICE_PRIVACY_DISABLE_UI_BOOL)) {
-                        CdmaVoicePrivacyCheckBoxPreference prefPri = (CdmaVoicePrivacyCheckBoxPreference)
+                        CdmaVoicePrivacySwitchPreference prefPri = (CdmaVoicePrivacySwitchPreference)
                                 prefSet.findPreference("button_voice_privacy_key");
                         if (prefPri != null) {
                              prefSet.removePreference(prefPri);
