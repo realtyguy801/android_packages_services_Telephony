@@ -206,7 +206,7 @@ public class VoicemailSettingsActivity extends PreferenceActivity
     private VoicemailProviderListPreference mVoicemailProviders;
     private PreferenceScreen mVoicemailSettings;
     private VoicemailRingtonePreference mVoicemailNotificationRingtone;
-    private CheckBoxPreference mVoicemailNotificationVibrate;
+    private SwitchPreference mVoicemailNotificationVibrate;
     private SwitchPreference mVoicemailVisualVoicemail;
     private Preference mVoicemailChangePinPreference;
 
@@ -275,7 +275,7 @@ public class VoicemailSettingsActivity extends PreferenceActivity
         mVoicemailNotificationRingtone.setVoicemailRingtoneNameChangeListener(this);
         mVoicemailNotificationRingtone.init(mPhone, mOldVmRingtoneName);
 
-        mVoicemailNotificationVibrate = (CheckBoxPreference) findPreference(
+        mVoicemailNotificationVibrate = (SwitchPreference) findPreference(
                 getResources().getString(R.string.voicemail_notification_vibrate_key));
         mVoicemailNotificationVibrate.setOnPreferenceChangeListener(this);
 
