@@ -65,7 +65,7 @@
             android:entries="@array/sip_call_options_entries"
             android:entryValues="@array/sip_call_options_values"/>
 
-        <SwitchPreference
+        <CheckBoxPreference
             android:key="sip_receive_calls_key"
             android:title="@string/sip_receive_calls"
             android:summary="@string/sip_receive_calls_summary"

@@ -23,7 +23,7 @@ import android.content.Intent;
 import android.net.sip.SipProfile;
 import android.os.Bundle;
 import android.os.Parcelable;
-import android.preference.SwitchPreference;
+import android.preference.CheckBoxPreference;
 import android.preference.EditTextPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
@@ -441,7 +441,7 @@ public class SipEditor extends PreferenceActivity
             mUpdateRequired = true;
         }
 
-        if (pref instanceof SwitchPreference) {
+        if (pref instanceof CheckBoxPreference) {
             invalidateOptionsMenu();
             return true;
         }
@@ -516,8 +516,8 @@ public class SipEditor extends PreferenceActivity
         return getString(R.string.sip_always_send_keepalive).equals(pref.getValue());
     }
 
-    private void setSwitch(PreferenceKey key, boolean checked) {
-        SwitchPreference pref = (SwitchPreference) key.preference;
+    private void setCheckBox(PreferenceKey key, boolean checked) {
+        CheckBoxPreference pref = (CheckBoxPreference) key.preference;
         pref.setChecked(checked);
     }
 
